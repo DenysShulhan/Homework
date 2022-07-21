@@ -1,0 +1,27 @@
+.letters {
+    position: relative;
+    max-width: min-content;
+    display: flex;
+    align-items: stretch;
+    margin: 20% auto;
+    padding: 5px;
+    background-color: blueviolet;
+}
+
+.letter {
+    margin: 10px 10px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.txt {
+    text-align: center;
+    justify-self: center;
+    margin: 30px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+}
